@@ -1,392 +1,687 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>World Wide Property Liquidators LLC</title>
-  <meta name="description" content="World Wide Property Liquidators LLC – Management & Legal, Maintenance & Development, Consulting & Specialties. Serving the US & Caribbean." />
-  <meta name="theme-color" content="#7c3aed" />
-  <meta property="og:title" content="World Wide Property Liquidators LLC" />
-  <meta property="og:description" content="Management & Legal, Maintenance & Development, Consulting & Specialties – Vibrant solutions with professional execution." />
-  <meta property="og:type" content="website" />
-  <style>
-    :root {
-      --color-primary: #7c3aed; /* violet */
-      --color-secondary: #06b6d4; /* cyan */
-      --color-accent: #f59e0b; /* amber */
-      --color-leaf: #10b981; /* emerald */
-      --color-ink: #0f172a; /* slate-900 */
-      --color-slate: #334155; /* slate-700 */
-      --color-cloud: #f8fafc; /* slate-50 */
-      --radius: 14px;
-      --shadow-1: 0 8px 24px rgba(2, 6, 23, 0.15);
-      --shadow-2: 0 12px 36px rgba(2, 6, 23, 0.18);
-    }
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Worldwide Property Development & Management LLC</title>
+    <meta
+      name="description"
+      content="Worldwide Property Liquidators LLC – Management & Legal, Maintenance & Development, Consulting & Specialties. Serving the US & Caribbean."
+    />
+    <meta name="theme-color" content="#7c3aed" />
+    <meta property="og:title" content="World Wide Property Liquidators LLC" />
+    <meta
+      property="og:description"
+      content="Management & Legal, Maintenance & Development, Consulting & Specialties – Vibrant solutions with professional execution."
+    />
+    <meta property="og:type" content="website" />
+    <style>
+      :root {
+        --color-primary: #7c3aed; /* violet */
+        --color-secondary: #06b6d4; /* cyan */
+        --color-accent: #f59e0b; /* amber */
+        --color-leaf: #10b981; /* emerald */
+        --color-ink: #0f172a; /* slate-900 */
+        --color-slate: #334155; /* slate-700 */
+        --color-cloud: #f8fafc; /* slate-50 */
+        --radius: 14px;
+        --shadow-1: 0 8px 24px rgba(2, 6, 23, 0.15);
+        --shadow-2: 0 12px 36px rgba(2, 6, 23, 0.18);
+      }
 
-    * { box-sizing: border-box; }
-    html, body { height: 100%; }
-    body {
-      margin: 0;
-      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji";
-      color: var(--color-ink);
-      background:
-        radial-gradient(1200px 800px at -10% -10%, rgba(124, 58, 237, 0.18), transparent 60%),
-        radial-gradient(1000px 700px at 110% 10%, rgba(6, 182, 212, 0.18), transparent 60%),
-        linear-gradient(180deg, #ffffff, #ffffff);
-    }
+      * {
+        box-sizing: border-box;
+      }
+      html,
+      body {
+        height: 100%;
+      }
+      body {
+        margin: 0;
+        font-family:
+          ui-sans-serif,
+          system-ui,
+          -apple-system,
+          Segoe UI,
+          Roboto,
+          "Helvetica Neue",
+          Arial,
+          "Noto Sans",
+          "Apple Color Emoji",
+          "Segoe UI Emoji";
+        color: var(--color-ink);
+        background:
+          radial-gradient(
+            1200px 800px at -10% -10%,
+            rgba(124, 58, 237, 0.18),
+            transparent 60%
+          ),
+          radial-gradient(
+            1000px 700px at 110% 10%,
+            rgba(6, 182, 212, 0.18),
+            transparent 60%
+          ),
+          linear-gradient(180deg, #ffffff, #ffffff);
+      }
 
-    .container {
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 0 24px;
-    }
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 24px;
+      }
 
-    a { color: inherit; text-decoration: none; }
-    img { max-width: 100%; display: block; }
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+      img {
+        max-width: 100%;
+        display: block;
+      }
 
-    /* Header / Navigation */
-    header.navbar {
-      position: sticky;
-      top: 0;
-      z-index: 50;
-      backdrop-filter: saturate(1.2) blur(8px);
-      background: rgba(255, 255, 255, 0.75);
-      border-bottom: 1px solid rgba(15, 23, 42, 0.08);
-    }
-    .nav-inner { display: flex; align-items: center; justify-content: space-between; padding: 14px 0; }
-    .brand { display: flex; align-items: center; gap: 12px; }
-    .brand img { height: 44px; width: auto; }
-    .brand h1 { font-size: 18px; margin: 0; letter-spacing: 0.4px; }
-    nav a { padding: 10px 14px; border-radius: 999px; font-weight: 600; color: #0b1220; }
-    nav a:hover { background: rgba(124, 58, 237, 0.1); }
+      /* Header / Navigation */
+      header.navbar {
+        position: sticky;
+        top: 0;
+        z-index: 50;
+        backdrop-filter: saturate(1.2) blur(8px);
+        background: rgba(255, 255, 255, 0.75);
+        border-bottom: 1px solid rgba(15, 23, 42, 0.08);
+      }
+      .nav-inner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 14px 0;
+      }
+      .brand {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+      }
+      .brand img {
+        height: 44px;
+        width: auto;
+      }
+      .brand h1 {
+        font-size: 18px;
+        margin: 0;
+        letter-spacing: 0.4px;
+      }
+      nav a {
+        padding: 10px 14px;
+        border-radius: 999px;
+        font-weight: 600;
+        color: #0b1220;
+      }
+      nav a:hover {
+        background: rgba(124, 58, 237, 0.1);
+      }
 
-    /* Hero */
-    .hero {
-      position: relative;
-      overflow: hidden;
-      padding: 72px 0 48px;
-      background:
-        radial-gradient(1000px 600px at 10% -10%, rgba(245, 158, 11, 0.20), transparent 55%),
-        radial-gradient(1200px 700px at 90% -20%, rgba(124, 58, 237, 0.20), transparent 55%),
-        linear-gradient(135deg, rgba(6, 182, 212, 0.08), rgba(124, 58, 237, 0.08));
-      border-bottom: 1px solid rgba(15, 23, 42, 0.08);
-    }
-    .hero-grid { display: grid; grid-template-columns: 1.2fr 1fr; gap: 40px; align-items: center; }
-    .eyebrow {
-      display: inline-flex; align-items: center; gap: 8px;
-      padding: 6px 12px; border-radius: 999px; font-weight: 700; font-size: 12px;
-      background: linear-gradient(90deg, rgba(124,58,237,0.15), rgba(6,182,212,0.15));
-      color: var(--color-slate);
-      border: 1px solid rgba(15, 23, 42, 0.08);
-    }
-    .hero h2 {
-      font-size: clamp(28px, 4.2vw, 52px);
-      line-height: 1.05;
-      margin: 16px 0 14px;
-      font-weight: 800;
-      letter-spacing: -0.02em;
-      background: linear-gradient(90deg, var(--color-primary), var(--color-secondary), var(--color-accent));
-      -webkit-background-clip: text; background-clip: text; color: transparent;
-    }
-    .hero p { font-size: 18px; color: var(--color-slate); margin: 0 0 18px; }
-    .contact-line { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; color: var(--color-slate); }
-    .contact-line a { color: var(--color-primary); font-weight: 700; }
-    .actions { display: flex; gap: 12px; margin-top: 18px; flex-wrap: wrap; }
-    .btn {
-      display: inline-flex; align-items: center; gap: 10px; padding: 12px 18px; border-radius: 12px;
-      font-weight: 800; letter-spacing: 0.2px; border: 0; cursor: pointer;
-      box-shadow: var(--shadow-1);
-    }
-    .btn-primary { color: white; background: linear-gradient(135deg, var(--color-primary), var(--color-secondary)); }
-    .btn-primary:hover { filter: brightness(1.05); }
-    .btn-ghost { color: var(--color-primary); background: white; border: 2px solid rgba(124,58,237,0.25); }
-    .btn-ghost:hover { background: rgba(124,58,237,0.06); }
+      /* Hero */
+      .hero {
+        position: relative;
+        overflow: hidden;
+        padding: 72px 0 48px;
+        background:
+          radial-gradient(
+            1000px 600px at 10% -10%,
+            rgba(245, 158, 11, 0.2),
+            transparent 55%
+          ),
+          radial-gradient(
+            1200px 700px at 90% -20%,
+            rgba(124, 58, 237, 0.2),
+            transparent 55%
+          ),
+          linear-gradient(
+            135deg,
+            rgba(6, 182, 212, 0.08),
+            rgba(124, 58, 237, 0.08)
+          );
+        border-bottom: 1px solid rgba(15, 23, 42, 0.08);
+      }
+      .hero-grid {
+        display: grid;
+        grid-template-columns: 1.2fr 1fr;
+        gap: 40px;
+        align-items: center;
+      }
+      .eyebrow {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        padding: 6px 12px;
+        border-radius: 999px;
+        font-weight: 700;
+        font-size: 12px;
+        background: linear-gradient(
+          90deg,
+          rgba(124, 58, 237, 0.15),
+          rgba(6, 182, 212, 0.15)
+        );
+        color: var(--color-slate);
+        border: 1px solid rgba(15, 23, 42, 0.08);
+      }
+      .hero h2 {
+        font-size: clamp(28px, 4.2vw, 52px);
+        line-height: 1.05;
+        margin: 16px 0 14px;
+        font-weight: 800;
+        letter-spacing: -0.02em;
+        background: linear-gradient(
+          90deg,
+          var(--color-primary),
+          var(--color-secondary),
+          var(--color-accent)
+        );
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+      }
+      .hero p {
+        font-size: 18px;
+        color: var(--color-slate);
+        margin: 0 0 18px;
+      }
+      .contact-line {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        align-items: center;
+        color: var(--color-slate);
+      }
+      .contact-line a {
+        color: var(--color-primary);
+        font-weight: 700;
+      }
+      .actions {
+        display: flex;
+        gap: 12px;
+        margin-top: 18px;
+        flex-wrap: wrap;
+      }
+      .btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        padding: 12px 18px;
+        border-radius: 12px;
+        font-weight: 800;
+        letter-spacing: 0.2px;
+        border: 0;
+        cursor: pointer;
+        box-shadow: var(--shadow-1);
+      }
+      .btn-primary {
+        color: white;
+        background: linear-gradient(
+          135deg,
+          var(--color-primary),
+          var(--color-secondary)
+        );
+      }
+      .btn-primary:hover {
+        filter: brightness(1.05);
+      }
+      .btn-ghost {
+        color: var(--color-primary);
+        background: white;
+        border: 2px solid rgba(124, 58, 237, 0.25);
+      }
+      .btn-ghost:hover {
+        background: rgba(124, 58, 237, 0.06);
+      }
 
-    .hero .office {
-      position: relative;
-      border-radius: var(--radius);
-      overflow: hidden;
-      box-shadow: var(--shadow-2);
-      border: 1px solid rgba(15, 23, 42, 0.08);
-    }
-    .frame-overlay {
-      position: absolute; inset: 0;
-      background: linear-gradient(180deg, rgba(6, 182, 212, 0.08), rgba(124, 58, 237, 0.08));
-      pointer-events: none;
-    }
+      .hero .office {
+        position: relative;
+        border-radius: var(--radius);
+        overflow: hidden;
+        box-shadow: var(--shadow-2);
+        border: 1px solid rgba(15, 23, 42, 0.08);
+      }
+      .frame-overlay {
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(
+          180deg,
+          rgba(6, 182, 212, 0.08),
+          rgba(124, 58, 237, 0.08)
+        );
+        pointer-events: none;
+      }
 
-    /* Section */
-    section { padding: 56px 0; }
-    .section-header { display: flex; align-items: flex-end; justify-content: space-between; gap: 16px; margin-bottom: 20px; }
-    .section-title { font-size: 26px; margin: 0; letter-spacing: -0.01em; }
-    .section-kicker { color: var(--color-slate); font-weight: 600; }
-    .underline {
-      height: 5px; width: 100px; border-radius: 999px; margin-top: 10px;
-      background: linear-gradient(90deg, var(--color-accent), var(--color-secondary));
-    }
+      /* Section */
+      section {
+        padding: 56px 0;
+      }
+      .section-header {
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+        gap: 16px;
+        margin-bottom: 20px;
+      }
+      .section-title {
+        font-size: 26px;
+        margin: 0;
+        letter-spacing: -0.01em;
+      }
+      .section-kicker {
+        color: var(--color-slate);
+        font-weight: 600;
+      }
+      .underline {
+        height: 5px;
+        width: 100px;
+        border-radius: 999px;
+        margin-top: 10px;
+        background: linear-gradient(
+          90deg,
+          var(--color-accent),
+          var(--color-secondary)
+        );
+      }
 
-    .grid { display: grid; grid-template-columns: repeat(12, 1fr); gap: 18px; }
-    .col-4 { grid-column: span 4; }
-    .card {
-      background: white; border-radius: 14px; padding: 18px; height: 100%;
-      border: 1px solid rgba(15, 23, 42, 0.08);
-      box-shadow: 0 2px 0 rgba(15, 23, 42, 0.03);
-    }
-    .card::before {
-      content: ""; display: block; height: 5px; border-radius: 6px; margin-bottom: 12px;
-      background: linear-gradient(90deg, var(--color-primary), var(--color-secondary), var(--color-accent));
-    }
-    .card h3 { margin: 4px 0 8px; font-size: 18px; }
-    .card p { margin: 0; color: var(--color-slate); line-height: 1.45; }
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        gap: 18px;
+      }
+      .col-4 {
+        grid-column: span 4;
+      }
+      .card {
+        background: white;
+        border-radius: 14px;
+        padding: 18px;
+        height: 100%;
+        border: 1px solid rgba(15, 23, 42, 0.08);
+        box-shadow: 0 2px 0 rgba(15, 23, 42, 0.03);
+      }
+      .card::before {
+        content: "";
+        display: block;
+        height: 5px;
+        border-radius: 6px;
+        margin-bottom: 12px;
+        background: linear-gradient(
+          90deg,
+          var(--color-primary),
+          var(--color-secondary),
+          var(--color-accent)
+        );
+      }
+      .card h3 {
+        margin: 4px 0 8px;
+        font-size: 18px;
+      }
+      .card p {
+        margin: 0;
+        color: var(--color-slate);
+        line-height: 1.45;
+      }
 
-    /* Contact */
-    .contact {
-      background:
-        radial-gradient(800px 600px at 15% 30%, rgba(16, 185, 129, 0.16), transparent 60%),
-        radial-gradient(1000px 800px at 85% 10%, rgba(124, 58, 237, 0.16), transparent 60%),
-        linear-gradient(180deg, #ffffff, #ffffff);
-      border-top: 1px solid rgba(15, 23, 42, 0.08);
-      border-bottom: 1px solid rgba(15, 23, 42, 0.08);
-    }
-    .contact-card {
-      background: white; border-radius: var(--radius); padding: 22px; display: grid; gap: 16px; align-items: center;
-      grid-template-columns: 1fr auto; box-shadow: var(--shadow-1); border: 1px solid rgba(15, 23, 42, 0.08);
-    }
-    .contact-card h3 { margin: 0; }
-    .contact-details { color: var(--color-slate); }
+      /* Contact */
+      .contact {
+        background:
+          radial-gradient(
+            800px 600px at 15% 30%,
+            rgba(16, 185, 129, 0.16),
+            transparent 60%
+          ),
+          radial-gradient(
+            1000px 800px at 85% 10%,
+            rgba(124, 58, 237, 0.16),
+            transparent 60%
+          ),
+          linear-gradient(180deg, #ffffff, #ffffff);
+        border-top: 1px solid rgba(15, 23, 42, 0.08);
+        border-bottom: 1px solid rgba(15, 23, 42, 0.08);
+      }
+      .contact-card {
+        background: white;
+        border-radius: var(--radius);
+        padding: 22px;
+        display: grid;
+        gap: 16px;
+        align-items: center;
+        grid-template-columns: 1fr auto;
+        box-shadow: var(--shadow-1);
+        border: 1px solid rgba(15, 23, 42, 0.08);
+      }
+      .contact-card h3 {
+        margin: 0;
+      }
+      .contact-details {
+        color: var(--color-slate);
+      }
 
-    /* Footer */
-    footer { padding: 24px 0; color: var(--color-slate); font-size: 14px; }
+      /* Footer */
+      footer {
+        padding: 24px 0;
+        color: var(--color-slate);
+        font-size: 14px;
+      }
 
-    /* Responsive */
-    @media (max-width: 960px) {
-      .hero-grid { grid-template-columns: 1fr; }
-      .col-4 { grid-column: span 6; }
-    }
-    @media (max-width: 640px) {
-      nav { display: none; }
-      .col-4 { grid-column: span 12; }
-      .contact-card { grid-template-columns: 1fr; }
-    }
-  </style>
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "World Wide Property Liquidators LLC",
-    "url": "",
-    "logo": "logo.png",
-    "telephone": "+1-718-536-1930",
-    "email": "info@worldwidepropertyliquidators.com",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "6 Wierk Ave, Suite 7",
-      "addressLocality": "Liberty",
-      "addressRegion": "NY",
-      "postalCode": "12754",
-      "addressCountry": "US"
-    }
-  }
-  </script>
-</head>
-<body>
-  <header class="navbar">
-    <div class="container nav-inner">
-      <a class="brand" href="#top">
-        <img src="logo.png" alt="World Wide Property Liquidators LLC logo" />
-        <h1>World Wide Property Liquidators LLC</h1>
-      </a>
-      <nav aria-label="Primary">
-        <a href="#management">Management & Legal</a>
-        <a href="#maintenance">Maintenance & Development</a>
-        <a href="#consulting">Consulting & Specialties</a>
-        <a href="#contact">Contact</a>
-      </nav>
-    </div>
-  </header>
+      /* Responsive */
+      @media (max-width: 960px) {
+        .hero-grid {
+          grid-template-columns: 1fr;
+        }
+        .col-4 {
+          grid-column: span 6;
+        }
+      }
+      @media (max-width: 640px) {
+        nav {
+          display: none;
+        }
+        .col-4 {
+          grid-column: span 12;
+        }
+        .contact-card {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Worldwide Property Liquidators LLC",
+        "url": "",
+        "logo": "logo.png",
+        "telephone": "+1-718-536-1930",
+        "email": "info@worldwidepropertyliquidators.com",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "6 Wierk Ave, Suite 7",
+          "addressLocality": "Liberty",
+          "addressRegion": "NY",
+          "postalCode": "12754",
+          "addressCountry": "US"
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <header class="navbar">
+      <div class="container nav-inner">
+        <a class="brand" href="#top">
+          <img src="logo.png" alt="Worldwide Property Liquidators LLC logo" />
+          <h1>Worldwide Property Development & Management LLC</h1>
+        </a>
+        <nav aria-label="Primary">
+          <a href="#management">Management & Legal</a>
+          <a href="#maintenance">Maintenance & Development</a>
+          <a href="#consulting">Consulting & Specialties</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
 
-  <main id="top">
-    <section class="hero">
-      <div class="container hero-grid">
+    <main id="top">
+      <section class="hero">
+        <div class="container hero-grid">
+          <div>
+            <span class="eyebrow"
+              >Trusted property solutions — US & Caribbean</span
+            >
+            <h2>Professional property services</h2>
+            <p>
+              We deliver end‑to‑end real estate management, legal coordination,
+              maintenance, development, and consulting with a decisive, hands‑on
+              approach.
+            </p>
+            <div class="contact-line">
+              <span>6 Wierk Ave, Suite 7, Liberty, NY 12754</span>
+              <span>•</span>
+              <a href="tel:+17185361930">(718) 536‑1930</a>
+              <span>•</span>
+              <a href="mailto:info@worldwidepropertyliquidators.com"
+                >info@worldwidepropertyliquidators.com</a
+              >
+            </div>
+            <div class="actions">
+              <a class="btn btn-primary" href="tel:+17185361930">Call now</a>
+              <a class="btn btn-ghost" href="#contact">Get in touch</a>
+            </div>
+          </div>
+          <div class="office">
+            <img
+              src="office-lobby.png"
+              alt="Modern office lobby of World Wide Property Liquidators"
+            />
+            <div class="frame-overlay"></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="management">
+        <div class="container">
+          <div class="section-header">
+            <div>
+              <h2 class="section-title">Management & Legal</h2>
+              <div class="underline"></div>
+            </div>
+            <div class="section-kicker">
+              Efficient oversight, clear compliance
+            </div>
+          </div>
+          <div class="grid">
+            <div class="col-4">
+              <div class="card">
+                <h3>Rental Properties & Property Management</h3>
+                <p>
+                  Comprehensive leasing, tenant relations, rent collection, and
+                  asset performance reporting with proactive upkeep to protect
+                  value.
+                </p>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="card">
+                <h3>Eviction Services</h3>
+                <p>
+                  Coordinated, compliant eviction support from notice to
+                  turnover—minimizing downtime while respecting legal process
+                  and community standards.
+                </p>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="card">
+                <h3>Fine Codes Enforcement</h3>
+                <p>
+                  We navigate municipal codes and remedies to resolve violations
+                  quickly, reduce penalties, and restore properties to good
+                  standing.
+                </p>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="card">
+                <h3>Probates & Receiverships</h3>
+                <p>
+                  Specialized stewardship during probate or
+                  receivership—stabilizing assets, ensuring transparency, and
+                  preparing for disposition or transfer.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="maintenance">
+        <div class="container">
+          <div class="section-header">
+            <div>
+              <h2 class="section-title">Maintenance & Development</h2>
+              <div class="underline"></div>
+            </div>
+            <div class="section-kicker">Safe, resilient, and ready</div>
+          </div>
+          <div class="grid">
+            <div class="col-4">
+              <div class="card">
+                <h3>Building Systems & Safety Maintenance</h3>
+                <p>
+                  Scheduled inspections and servicing for HVAC, electrical,
+                  plumbing, and life‑safety systems to keep buildings compliant
+                  and reliable.
+                </p>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="card">
+                <h3>Repairs & Cleaning Services</h3>
+                <p>
+                  Rapid response repairs and professional cleaning that preserve
+                  curb appeal, tenant satisfaction, and long‑term asset health.
+                </p>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="card">
+                <h3>Property Preservation</h3>
+                <p>
+                  Vacancy protection, winterization, debris removal, and ongoing
+                  site checks to safeguard properties between tenants or during
+                  transitions.
+                </p>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="card">
+                <h3>
+                  Waterfront, Project, & Property Development (US & Caribbean)
+                </h3>
+                <p>
+                  Feasibility, permitting, and construction oversight for
+                  distinctive projects—including waterfront assets—across the US
+                  and Caribbean.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="consulting">
+        <div class="container">
+          <div class="section-header">
+            <div>
+              <h2 class="section-title">Consulting & Specialties</h2>
+              <div class="underline"></div>
+            </div>
+            <div class="section-kicker">Insight that moves deals forward</div>
+          </div>
+          <div class="grid">
+            <div class="col-4">
+              <div class="card">
+                <h3>Consultants & Advisers</h3>
+                <p>
+                  Strategic guidance on operations, acquisitions, dispositions,
+                  and risk—aligned with your timelines and financial objectives.
+                </p>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="card">
+                <h3>Single Family Properties</h3>
+                <p>
+                  Turnkey services for single‑family homes—from make‑ready and
+                  leasing to capital planning and value‑add execution.
+                </p>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="card">
+                <h3>Multifamily Properties</h3>
+                <p>
+                  Operational excellence for apartments and communities, focused
+                  on occupancy, NOI growth, and resident experience.
+                </p>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="card">
+                <h3>Commercial Buildings</h3>
+                <p>
+                  Customized asset plans for offices, retail, and
+                  mixed‑use—balancing tenant needs, compliance, and investment
+                  returns.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact">
+        <div class="container">
+          <div class="contact-card">
+            <div>
+              <h3>Get in touch</h3>
+              <div class="contact-details">
+                <div>World Wide Property Liquidators LLC</div>
+                <div>6 Wierk Ave, Suite 7, Liberty, NY 12754</div>
+                <div><a href="tel:+17185361930">(718) 536‑1930</a></div>
+                <div>
+                  <a href="mailto:info@worldwidepropertyliquidators.com"
+                    >info@worldwidepropertyliquidators.com</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="actions">
+              <a class="btn btn-primary" href="tel:+17185361930"
+                >Call (718) 536‑1930</a
+              >
+              <a
+                class="btn btn-ghost"
+                href="https://maps.google.com/?q=6+Wierk+Ave,+Suite+7,+Liberty,+NY+12754"
+                target="_blank"
+                rel="noopener"
+                >Open in Maps</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div
+        class="container"
+        style="
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          gap: 16px;
+          flex-wrap: wrap;
+        "
+      >
         <div>
-          <span class="eyebrow">Trusted property solutions — US & Caribbean</span>
-          <h2>Colorful, vibrant, and professional property services</h2>
-          <p>We deliver end‑to‑end real estate management, legal coordination, maintenance, development, and consulting with a decisive, hands‑on approach.</p>
-          <div class="contact-line">
-            <span>6 Wierk Ave, Suite 7, Liberty, NY 12754</span>
-            <span>•</span>
-            <a href="tel:+17185361930">(718) 536‑1930</a>
-            <span>•</span>
-            <a href="mailto:info@worldwidepropertyliquidators.com">info@worldwidepropertyliquidators.com</a>
-          </div>
-          <div class="actions">
-            <a class="btn btn-primary" href="tel:+17185361930">Call now</a>
-            <a class="btn btn-ghost" href="#contact">Get in touch</a>
-          </div>
+          © <span id="year"></span> World Wide Property Liquidators LLC. All
+          rights reserved.
         </div>
-        <div class="office">
-          <img src="office-lobby.png" alt="Modern office lobby of World Wide Property Liquidators" />
-          <div class="frame-overlay"></div>
+        <div style="display: flex; gap: 10px">
+          <a href="#management">Management & Legal</a>
+          <span>·</span>
+          <a href="#maintenance">Maintenance & Development</a>
+          <span>·</span>
+          <a href="#consulting">Consulting & Specialties</a>
         </div>
       </div>
-    </section>
+    </footer>
 
-    <section id="management">
-      <div class="container">
-        <div class="section-header">
-          <div>
-            <h2 class="section-title">Management & Legal</h2>
-            <div class="underline"></div>
-          </div>
-          <div class="section-kicker">Efficient oversight, clear compliance</div>
-        </div>
-        <div class="grid">
-          <div class="col-4">
-            <div class="card">
-              <h3>Rental Properties & Property Management</h3>
-              <p>Comprehensive leasing, tenant relations, rent collection, and asset performance reporting with proactive upkeep to protect value.</p>
-            </div>
-          </div>
-          <div class="col-4">
-            <div class="card">
-              <h3>Eviction Services</h3>
-              <p>Coordinated, compliant eviction support from notice to turnover—minimizing downtime while respecting legal process and community standards.</p>
-            </div>
-          </div>
-          <div class="col-4">
-            <div class="card">
-              <h3>Fine Codes Enforcement</h3>
-              <p>We navigate municipal codes and remedies to resolve violations quickly, reduce penalties, and restore properties to good standing.</p>
-            </div>
-          </div>
-          <div class="col-4">
-            <div class="card">
-              <h3>Probates & Receiverships</h3>
-              <p>Specialized stewardship during probate or receivership—stabilizing assets, ensuring transparency, and preparing for disposition or transfer.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="maintenance">
-      <div class="container">
-        <div class="section-header">
-          <div>
-            <h2 class="section-title">Maintenance & Development</h2>
-            <div class="underline"></div>
-          </div>
-          <div class="section-kicker">Safe, resilient, and ready</div>
-        </div>
-        <div class="grid">
-          <div class="col-4">
-            <div class="card">
-              <h3>Building Systems & Safety Maintenance</h3>
-              <p>Scheduled inspections and servicing for HVAC, electrical, plumbing, and life‑safety systems to keep buildings compliant and reliable.</p>
-            </div>
-          </div>
-          <div class="col-4">
-            <div class="card">
-              <h3>Repairs & Cleaning Services</h3>
-              <p>Rapid response repairs and professional cleaning that preserve curb appeal, tenant satisfaction, and long‑term asset health.</p>
-            </div>
-          </div>
-          <div class="col-4">
-            <div class="card">
-              <h3>Property Preservation</h3>
-              <p>Vacancy protection, winterization, debris removal, and ongoing site checks to safeguard properties between tenants or during transitions.</p>
-            </div>
-          </div>
-          <div class="col-4">
-            <div class="card">
-              <h3>Waterfront, Project, & Property Development (US & Caribbean)</h3>
-              <p>Feasibility, permitting, and construction oversight for distinctive projects—including waterfront assets—across the US and Caribbean.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="consulting">
-      <div class="container">
-        <div class="section-header">
-          <div>
-            <h2 class="section-title">Consulting & Specialties</h2>
-            <div class="underline"></div>
-          </div>
-          <div class="section-kicker">Insight that moves deals forward</div>
-        </div>
-        <div class="grid">
-          <div class="col-4">
-            <div class="card">
-              <h3>Consultants & Advisers</h3>
-              <p>Strategic guidance on operations, acquisitions, dispositions, and risk—aligned with your timelines and financial objectives.</p>
-            </div>
-          </div>
-          <div class="col-4">
-            <div class="card">
-              <h3>Single Family Properties</h3>
-              <p>Turnkey services for single‑family homes—from make‑ready and leasing to capital planning and value‑add execution.</p>
-            </div>
-          </div>
-          <div class="col-4">
-            <div class="card">
-              <h3>Multifamily Properties</h3>
-              <p>Operational excellence for apartments and communities, focused on occupancy, NOI growth, and resident experience.</p>
-            </div>
-          </div>
-          <div class="col-4">
-            <div class="card">
-              <h3>Commercial Buildings</h3>
-              <p>Customized asset plans for offices, retail, and mixed‑use—balancing tenant needs, compliance, and investment returns.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="contact" class="contact">
-      <div class="container">
-        <div class="contact-card">
-          <div>
-            <h3>Get in touch</h3>
-            <div class="contact-details">
-              <div>World Wide Property Liquidators LLC</div>
-              <div>6 Wierk Ave, Suite 7, Liberty, NY 12754</div>
-              <div><a href="tel:+17185361930">(718) 536‑1930</a></div>
-              <div><a href="mailto:info@worldwidepropertyliquidators.com">info@worldwidepropertyliquidators.com</a></div>
-            </div>
-          </div>
-          <div class="actions">
-            <a class="btn btn-primary" href="tel:+17185361930">Call (718) 536‑1930</a>
-            <a class="btn btn-ghost" href="https://maps.google.com/?q=6+Wierk+Ave,+Suite+7,+Liberty,+NY+12754" target="_blank" rel="noopener">Open in Maps</a>
-          </div>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <footer>
-    <div class="container" style="display:flex; align-items:center; justify-content:space-between; gap:16px; flex-wrap:wrap;">
-      <div>
-        © <span id="year"></span> World Wide Property Liquidators LLC. All rights reserved.
-      </div>
-      <div style="display:flex; gap:10px;">
-        <a href="#management">Management & Legal</a>
-        <span>·</span>
-        <a href="#maintenance">Maintenance & Development</a>
-        <span>·</span>
-        <a href="#consulting">Consulting & Specialties</a>
-      </div>
-    </div>
-  </footer>
-
-  <script>
-    // Small enhancement: current year and smooth scrolling
-    document.getElementById('year').textContent = new Date().getFullYear();
-    document.documentElement.style.scrollBehavior = 'smooth';
-  </script>
-</body>
+    <script>
+      // Small enhancement: current year and smooth scrolling
+      document.getElementById("year").textContent = new Date().getFullYear();
+      document.documentElement.style.scrollBehavior = "smooth";
+    </script>
+  </body>
 </html>
-
-
